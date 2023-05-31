@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BookShelf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Fitnesss" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Fragments" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Instagram" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NMedia" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NeWork" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Posts" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/RecyclerView" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ViewResources" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/activities_01" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/andin-code" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/antoms_inst" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/antoms_inst/Instagram" vcs="Git" />
+  </component>
+</project>
