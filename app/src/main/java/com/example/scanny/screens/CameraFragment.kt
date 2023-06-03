@@ -38,9 +38,7 @@ class CameraFragment : Fragment(R.layout.fragment_camera) {
     private var imageCapture: ImageCapture? = null
     private lateinit var outputDirectory: File
     private lateinit var cameraExecutor: ExecutorService
-    private var lensFacing = CameraSelector.DEFAULT_FRONT_CAMERA
-    lateinit var activityResultRegistry: ActivityResultRegistry
-    lateinit var callback : (imageUri: Uri?) -> Unit
+    private var lensFacing = CameraSelector.DEFAULT_BACK_CAMERA
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

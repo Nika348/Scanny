@@ -17,7 +17,9 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-    buildFeatures.viewBinding = true
+    buildFeatures {
+        viewBinding true
+    }
 
     buildTypes {
         release {
@@ -56,7 +58,16 @@ dependencies {
 
     // Tensorflow Lite dependencies
     implementation 'org.tensorflow:tensorflow-lite-task-vision-play-services:0.4.2'
-    implementation 'com.google.android.gms:play-services-tflite-gpu:16.1.0'
+    implementation 'com.google.android.gms:play-services-tflite-gpu:16.2.0'
+    implementation 'org.tensorflow:tensorflow-lite-select-tf-ops:2.12.0'
+    implementation 'org.tensorflow:tensorflow-lite-gpu:2.3.0'
+    implementation 'org.tensorflow:tensorflow-lite:2.10.0'
+    implementation 'org.tensorflow:tensorflow-lite-task-vision:0.4.0'
+    implementation 'org.tensorflow:tensorflow-lite-select-tf-ops:0.0.0-nightly'
+
 
     implementation "io.coil-kt:coil:2.4.0"
+
+    implementation 'com.google.android.gms:play-services-base:18.2.0'
+
 }
